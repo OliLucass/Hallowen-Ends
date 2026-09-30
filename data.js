@@ -34,6 +34,6 @@ const PROGRAM = {
   27: { items: [OSAJ("Episódios finais")] },
   28: { items: [CRY()] },
   29: { items: [CRY()] },
-  30: { items: [I("O Massacre da Serra Elétrica", "filme")] },
+  30: { items: [I("A Hora do Pesadelo", "filme")] },
   31: { special: true, items: [I("O Estranho Mundo de Jack", "filme", { anim: true })] },
 };
