@@ -47,7 +47,16 @@ main{max-width:1100px;margin:auto;padding:12px 12px 40px}
 .day.done::after{content:"✓";position:absolute;top:4px;right:10px;font-size:1.8rem;color:var(--green)}
 .day.special{grid-column:span 2;background:radial-gradient(circle at 50% 120%,#ff8a1f55,#1a1530 70%);border:2px solid var(--orange);box-shadow:0 0 28px #ff8a1f55;animation:candle 3s infinite alternate}
 .day.off{display:none}.pad{visibility:hidden}
-.thumb{width:100%;height:56px;object-fit:cover;border-radius:6px;margin-top:4px}
+.thumb{
+  width:100%;
+  height:120px;
+  object-fit:contain;
+  object-position:center;
+  background:#0c0a1a;
+  border-radius:6px;
+  margin-top:6px;
+  display:block;
+}
 .modal{position:fixed;inset:0;background:#000b;z-index:20;display:flex;align-items:center;justify-content:center;padding:14px}
 .modal[hidden]{display:none}
 .box{position:relative;background:var(--panel);border:2px solid var(--orange);border-radius:18px;max-width:560px;width:100%;max-height:92vh;overflow:auto;padding:22px;animation:pop .25s}
@@ -56,7 +65,16 @@ main{max-width:1100px;margin:auto;padding:12px 12px 40px}
 .box h2{color:var(--orange);margin-bottom:8px}
 .box h3{font-size:1.1rem;margin:12px 0 2px}
 .box input[type=text],.box input[type=url],.box select,.box textarea{width:100%;background:#0c0a1a;color:var(--cream);border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:inherit;margin:3px 0}
-.cover{width:100%;max-height:200px;object-fit:cover;border-radius:10px;margin:6px 0}
+.cover{
+  width:100%;
+  max-height:320px;
+  object-fit:contain;
+  object-position:center;
+  background:#0c0a1a;
+  border-radius:10px;
+  margin:8px 0;
+  display:block;
+}
 .pp{border-top:1px dashed var(--line);margin-top:12px;padding-top:8px}
 .stars button{background:none;border:0;font-size:1.6rem;cursor:pointer;color:#5a4d80;padding:0 2px}
 .stars button.on{color:#ffc933}
