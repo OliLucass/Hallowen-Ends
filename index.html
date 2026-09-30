@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halloween 2026 — 31 noites de terror</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="sky" aria-hidden="true"><div class="moon"></div></div>
+<div id="fx" aria-hidden="true"></div>
+<header class="hero">
+  <h1>🎃 HALLOWEEN 2026</h1>
+  <p class="tag">“31 noites de filmes, séries e terror”</p>
+  <div class="stats">
+    <div><b>31</b> noites</div><div><b id="sDone">0</b> assistidas</div><div><b id="sLeft">31</b> restantes</div>
+  </div>
+  <div class="progress"><h2>🎃 NOSSO HALLOWEEN</h2>
+    <p><span id="pTxt">0 / 31 noites concluídas</span></p>
+    <div class="bar"><i id="pBar"></i></div><small id="pPct">0%</small>
+  </div>
+  <div class="people">
+    <label>👤 <input id="n0" maxlength="14" aria-label="Nome da pessoa 1"></label>
+    <label>👤 <input id="n1" maxlength="14" aria-label="Nome da pessoa 2"></label>
+  </div>
+  <div class="shared-box">
+    <span id="syncStatus" class="sync-status loading">☁️ Conectando...</span>
+  </div>
+  <nav class="filters" id="filters"></nav>
+</header>
+<main>
+  <div class="wk" id="wk"></div>
+  <section id="cal" class="cal"></section>
+</main>
+<footer>☁️ Progresso compartilhado entre os dois acessos. 🕯️ Feliz Halloween!</footer>
+<div id="modal" class="modal" hidden><div class="box" role="dialog" aria-modal="true"><button class="x" id="close" aria-label="Fechar">✕</button><div id="mBody"></div></div></div>
+<script src="data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+</body>
+</html>
