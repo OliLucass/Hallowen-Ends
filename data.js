@@ -11,7 +11,7 @@ const PROGRAM = {
   4: JOKER,
   5: { items: [OSAJ("2 episódios")] },
   6: { items: [I("Alma (2009)", "curta", { anim: true }), I("La Noria (2018)", "curta", { anim: true })], note: "Ambos são curtas." },
-  7: { items: [I("Junji Ito Collection (2018)", "serie", { eps: "2 episódios", anim: true })] },
+  7: { items: [I("Carrie: A Estranha", "serie", { eps: "1 episódios", anim: true })] },
   8: { items: [I("Uzumaki", "serie", { eps: "2 episódios", anim: true })] },
   9: { items: [I("ParaNorman", "filme", { anim: true })] },
   10: { items: [I("Pânico", "filme")] },
