@@ -26,7 +26,7 @@ const PROGRAM = {
   19: { items: [OSAJ("2 episódios")] },
   20: { items: [I("A Maldição da Residência Hill", "serie", { eps: "1 episódio" })] },
   21: { items: [I("O Gabinete de Curiosidades de Guillermo del Toro", "serie", { sub: "T1E3" })] },
-  22: { items: [I("Into the Dark", "serie", { sub: "T1E11" })] },
+  22: { items: [I("Outra Mamãe", "filme", )] },
   23: { items: [I("O Massacre da Serra Elétrica", "filme")] },
   24: { items: [CRY()] },
   25: JOKER,
