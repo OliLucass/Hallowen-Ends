@@ -28,7 +28,7 @@ const PROGRAM = {
   21: { items: [I("O Gabinete de Curiosidades de Guillermo del Toro", "serie", { sub: "T1E3" })] },
   22: { items: [I("Outra Mamãe", "filme", )] },
   23: { items: [I("O Massacre da Serra Elétrica", "filme")] },
-  23: { items: [I("Cara-de-Barro", "filme")] },
+  24: { items: [I("Cara-de-Barro", "filme")] },
   25: JOKER,
   26: { items: [CRY()] },
   27: { items: [OSAJ("Episódios finais")] },
